@@ -1,0 +1,12 @@
+.pageHeader {
+  box-shadow: 0 5px 5px rgb(0 0 0 / 20%);
+  flex: 0 0 10%;
+  font-size: 1.5em;
+  padding: 20px;
+  background-color: #03534b;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+}
