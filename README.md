@@ -1,8 +1,6 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/zeit/next.js/tree/canary/packages/create-next-app).
-
 ## About
 
-This project aims to demostrate Micro Front Ends with Next.js with the aim to create a distributed application architecture.
+This project aims to demostrate Micro Front Ends using Next.js with the aim to create a distributed application architecture.
 
 ## How it works
 
