@@ -14,15 +14,27 @@ module.exports = {
       remotes: {
         // For SSR, resolve to disk path (or you can use code streaming if you have access)
         home: isServer
-          ? path.resolve(
+          ? path.join(
               __dirname,
-              "../home/.next/server/static/runtime/remoteEntry.js"
+              "..",
+              "home",
+              ".next",
+              "server",
+              "static",
+              "runtime",
+              "remoteEntry.js"
             )
           : "home", // for client, treat it as a global
         footer: isServer
-          ? path.resolve(
+          ? path.join(
               __dirname,
-              "../footer/.next/server/static/runtime/remoteEntry.js"
+              "..",
+              "footer",
+              ".next",
+              "server",
+              "static",
+              "runtime",
+              "remoteEntry.js"
             )
           : "footer",
       },
