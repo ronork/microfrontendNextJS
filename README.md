@@ -1,6 +1,6 @@
 ## About
 
-This project aims to demostrate Micro Front Ends using Next.js with the aim to create a distributed application architecture.
+This project aims to demostrate Micro Front Ends using Next.js
 
 ## How it works
 
