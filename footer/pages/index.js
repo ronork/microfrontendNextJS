@@ -1,5 +1,4 @@
 import Head from "next/head";
-
 import FooterView from "../components/FooterView";
 
 const Footer = () => (
